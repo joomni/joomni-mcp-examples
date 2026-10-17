@@ -1,0 +1,7 @@
+[extend]
+useDefault = true
+
+[[rules]]
+id = "joomni-mcp-key"
+description = "Joomni MCP connection key"
+regex = '''joomni_mcp_[a-f0-9]{64}'''

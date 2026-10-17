@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "joomni-key",
+      "description": "Joomni connection key (Settings › MCP Connections)",
+      "password": true
+    }
+  ],
+  "servers": {
+    "joomni": {
+      "type": "http",
+      "url": "https://api.joomni.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${input:joomni-key}"
+      }
+    }
+  }
+}

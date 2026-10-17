@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "joomni": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://api.joomni.com/mcp", "--header", "Authorization:${JOOMNI_AUTH}"],
+      "env": {
+        "JOOMNI_AUTH": "Bearer joomni_mcp_your_key_here"
+      }
+    }
+  }
+}

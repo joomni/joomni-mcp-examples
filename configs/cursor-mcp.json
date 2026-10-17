@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "joomni": {
+      "url": "https://api.joomni.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${env:JOOMNI_MCP_KEY}"
+      }
+    }
+  }
+}

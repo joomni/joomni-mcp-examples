@@ -1,0 +1,13 @@
+{
+  "name": "joomni-mcp-examples",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Connect Claude, ChatGPT and other MCP apps to a Joomni store.",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "check": "node --check clients/node/mcp.mjs && node --check clients/node/list-tools.mjs && node --check clients/node/call-tool.mjs && node scripts/check-links.mjs",
+    "tools": "node clients/node/list-tools.mjs"
+  }
+}
